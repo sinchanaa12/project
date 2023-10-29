@@ -1,0 +1,18 @@
+/* Donate.css */
+
+.donate-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .donate-container h1 {
+    font-size: 2em;
+  }
+  
+  .donate-container p {
+    font-size: 1.2em;
+  }
+  
+  /* Add more styles as needed */
+  

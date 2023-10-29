@@ -1,0 +1,7 @@
+header {
+    text-align:center;
+  }
+  
+  .center-heading {
+    margin: 0; /* Remove default margins to center the text vertically */
+  }

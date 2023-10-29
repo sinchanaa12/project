@@ -1,0 +1,96 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .competition-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .competition-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .competition-header > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .competition-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .competition-register button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .competition-register button:hover {
+    background-color: #45a049;
+  }
+  
+  .competition-rules {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: white
+  }
+  
+  .competition-rules h4 {
+    font-weight: bold;
+  }
+  
+  .competition-rules ul {
+    padding: 0;
+    list-style-type: disc;
+    text-align: left;
+  }
+  
+  .registration-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .registration-form h2 {
+    font-weight: bold;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .registration-form button:hover {
+    background-color: #45a049;
+  }

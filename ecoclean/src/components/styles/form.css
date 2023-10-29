@@ -1,0 +1,49 @@
+.form-container {
+    text-align: center;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add a specific class for the pincode field */
+  .pincode-field {
+    text-align: left; /* Set text alignment to left for the pincode field */
+  }
+  
+  button[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background: #555;
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+  }
+  .form-field p {
+    text-align: left; /* Align the paragraph to the left */
+  }
