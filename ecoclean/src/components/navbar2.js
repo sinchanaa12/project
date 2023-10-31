@@ -1,6 +1,6 @@
 // Navbar.js
 import React from 'react';
-import { Router, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Contact from './pages/contact';
@@ -38,8 +38,8 @@ const Navbar2 = () => {
         <li>
         <Dropdownn text="Services">
             <Link to ="competitions"></Link>
-        <Dropdown.Item as="button" Link to="/competitions">Recycling programs</Dropdown.Item>
-        <Dropdown.Item as="button" href="/competitions">Competitions</Dropdown.Item>
+        <Dropdown.Item as="button" >Recycling programs</Dropdown.Item>
+        <Dropdown.Item as="button">Competitions</Dropdown.Item>
         </Dropdownn>
         </li>
 
@@ -52,8 +52,8 @@ const Navbar2 = () => {
         
         <li>
         <Dropdownn text="Initiatives">
-        <Dropdown.Item as="button" href="/structure">Infrastructure improvement</Dropdown.Item>
-        <Dropdown.Item as="button" href="">Collaboration</Dropdown.Item>
+        <Dropdown.Item as="button" >Infrastructure improvement</Dropdown.Item>
+        <Dropdown.Item as="button">Collaboration</Dropdown.Item>
         </Dropdownn>
         </li>
     
